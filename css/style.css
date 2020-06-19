@@ -390,6 +390,45 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
+.ruby {
+  margin-left: 200px;
+  height: 50px;
+}
+
+.rails {
+  width: 85px;
+}
+
+.react {
+  width: 50px;
+}
+
+.redux {
+  width: 85px;
+}
+
+.javascript {
+  width: 60px;
+}
+
+.css {
+  width: 42px;
+}
+
+.html {
+  margin-left: 7px;
+  width: 42px;
+}
+
+.node {
+  margin-left: 15px;
+  width: 75px;
+}
+
+.sql {
+  margin-left: 15px;
+  width: 50px;
+}
 
 #portfolio {
   position: relative;
@@ -406,7 +445,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li {
-  margin: 0 40px 0 0;
+  margin: 0 20px 0 20px;
   float: left;
   font-size: 14px;
   color: #999999;
@@ -450,7 +489,25 @@ nav ul li a {
 
 .project-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-md-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-games {
+  margin-right: none;
 }
 
 /* .heat:hover {
@@ -465,7 +522,7 @@ nav ul li a {
   height: auto;
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   position: relative;
 }
 
