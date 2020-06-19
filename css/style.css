@@ -448,6 +448,15 @@ nav ul li a {
   max-width: 100%;
 }
 
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+/* .heat:hover {
+  background: url("../images/portfolio/2.gif");
+} */
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
