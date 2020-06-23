@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: [" Bryan Linda.", " a Software Engineer based in the Bay Area.", " a lifelong learner.", " seeking for amazing opportunites in the industry."],
-      typeSpeed: 20,
+      strings: [" Bryan Linda!", " a Software Engineer based in the Bay Area", " a lifelong learner", " seeking for amazing opportunites in tech!"],
+      typeSpeed: 10,
       loop: true,
     });
   });

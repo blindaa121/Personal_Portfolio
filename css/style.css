@@ -284,7 +284,17 @@ nav ul li a {
 
 .header-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 40px;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.header-content .list-social li i:hover {
+  color: #b8a07e;
+  font-size: 40px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -616,6 +626,7 @@ nav ul li a {
 
 .contact-details li {
   padding-bottom: 10px;
+  font-size: 20px;
 }
 
 #contact input, #contact textarea {
