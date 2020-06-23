@@ -30,6 +30,7 @@
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon.png">
+  <script src="https://kit.fontawesome.com/41494d0a90.js" crossorigin="anonymous"></script>
 
   <!-- =======================================================
     Theme Name: Folio
@@ -47,7 +48,7 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <a href="index.html">BRYAN LINDA</a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
@@ -55,7 +56,7 @@
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Projects</a></li>
           <li><a href="#journal" class="smoothScroll">Skills</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
@@ -72,11 +73,11 @@
     <div class="container">
       <div class="header-content">
         <h1>I'm<span class="typed"></span></h1>
-        <p>Software Engineer, Frontend Developer, Creative Mind</p>
+        <p>Software Engineer, Frontend Developer, Full Stack Developer</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="#"><i class="ion-social-github"></i></a></li>
           <li><a href="#"><i class="ion-social-instagram"></i></a></li>
           <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
           <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
@@ -105,7 +106,10 @@
           <div class="about-descr">
 
             <p class="p-heading">I am a full stack developer based in the Bay Area who has an eye for clean, intuitive, and simple user-facing applications. </p>
-            <p class="separator">At a young age, I've always had a passion for technology, problem-solving, and building cool things. </p>
+            <p class="separator">At a young age, I've always had a passion for technology, problem-solving, and building cool things. When I'm not coding away to 90's R&B music, I enjoy spending quality time with my loved ones, keeping up with the latest
+            technologies, discovering new music, going on food adventures with my significant other, and exploring new hobbies and interests.
+            
+            </p>
 
           </div>
 
@@ -168,7 +172,7 @@
             <span>PHOTOGRAPHY</span>
             <p class="separator">To an English person, it will seem like simplified English,told me what </p>
 
-          </div> -->
+          </div> 
 
         </div>
 
@@ -206,7 +210,7 @@
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
               <h2 class='section-title h2'>HEAT</h2>
               <a class="popup-img" href="images/portfolio/1.jpg">
-                <img class='heat' src="images/portfolio/1.jpg" alt="alt">
+                <img id='heat' class='heat' src="images/portfolio/1.jpg" alt="alt">
               </a>
               <div class='project-links'>
                 <span><a href="">GitHub</a></span>
@@ -222,16 +226,33 @@
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
               <h2 class='section-title h2'>ITYPE</h2>
               <a class="popup-img" href="images/portfolio/2.jpg">
-                <img src="images/portfolio/2.jpg"  alt="img">
+                <img id='itype'src="images/portfolio/2.jpg"  alt="img">
               </a>
-              <p></p>
+              <div class='project-links'>
+                <span><a href="">GitHub</a></span>
+                <span>|</span>
+                <a href=""><span>Live</span></a>
+              </div>
+              <p>Inspired by GOAT.com, HEAT is a global e-commerce service that allows sneaker enthusiasts to browse through the latest
+              trends, create their own account, as well as make any desired transactions. With the user experience in mind, the
+              front-end structure was designed to provide a simple, yet elegant user-friendly environment.</p>
+              <span>Built with React / Redux, HTML / CSS, Ruby on Rails, Javascript, AWS S3, BCrypt</span>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
               <h2 class='section-title h2'>HUDDLEUP</h2>
               <a class="popup-img" href="images/portfolio/3.jpg">
-                <img src="images/portfolio/3.jpg" alt="img">
+                <img id='huddleup'src="images/portfolio/3.jpg" alt="img">
               </a>
+              <div class='project-links'>
+                <span><a href="">GitHub</a></span>
+                <span>|</span>
+                <a href=""><span>Live</span></a>
+              </div>
+              <p>Inspired by GOAT.com, HEAT is a global e-commerce service that allows sneaker enthusiasts to browse through the latest
+              trends, create their own account, as well as make any desired transactions. With the user experience in mind, the
+              front-end structure was designed to provide a simple, yet elegant user-friendly environment.</p>
+              <span>Built with React / Redux, HTML / CSS, Ruby on Rails, Javascript, AWS S3, BCrypt</span>
             </div>
 
           </div>
@@ -330,25 +351,29 @@
   <div id="contact" class="paddsection">
     <div class="container">
       <div class="contact-block1">
-        <div class="row">
+        <div class="contact-row">
 
           <div class="col-lg-6">
-            <div class="contact-contact">
+            <div class='contact-wrapper'>
+              <div class="contact-contact">
 
               <h2 class="mb-30">GET IN TOUCH</h2>
 
               <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
+                <li><i class='ion-ios-telephone'></i><span>510-306-8879</span></li>
+                <li><i class='ion-email'></i><a href="mailto:blindaa121@gmail.com">blindaa121@gmail.com</a></li>
               </ul>
-
+            
             </div>
+            </div>
+            
           </div>
 
-          <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
+           <!-- <div class="col-lg-6">
+             <span>
+               Let's connect! Feel free to reach out if you have any questions.
+             </span>
+           <!-- <form action="" method="post" role="form" class="contactForm">
               <div class="row">
 
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
@@ -386,9 +411,9 @@
                   <input type="submit" class="btn btn-defeault btn-send" value="Send message">
                 </div>
 
-              </div>
+              </div> 
             </form>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -402,17 +427,14 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+          <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+          <li><a href="#"><i class="ion-social-github"></i></a></li>
+          <li><a href=""><i class="fab fa-angellist"></i></a></li>
         </ul>
 
       </div>
 
-      <p>&copy; Copyrights Folio. All rights reserved.</p>
+      <!-- <p>&copy; Copyrights Folio. All rights reserved.</p>
 
       <div class="credits">
         <!--
@@ -420,9 +442,8 @@
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
-        -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -436,7 +457,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
-
+  
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
