@@ -748,3 +748,9 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+.resume {
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+}
