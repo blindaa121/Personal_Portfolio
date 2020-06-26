@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: [" Bryan Linda!", " a Software Engineer based in the Bay Area", " a frontend engineer", ' a full stack engineer', " seeking for amazing opportunites in tech!"],
+      strings: [" Bryan Linda.", " a Software Engineer in the Bay Area.", " a frontend engineer.", ' a full stack engineer.', " seeking amazing opportunites in tech!"],
       typeSpeed: 10,
       loop: true,
     });
